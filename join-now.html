@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Strictly Fitness, leave your mark.">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css?family=Audiowide|Roboto+Condensed" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Courage Fitness</title>
+</head>
+
+<body>
+  <header class="main-header">
+    <nav>
+      <h1><a href="index.html"><span class="title-color">Courage</span> Fitness</a></h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gyms.html">Gyms</a></li>
+        <li class="nav-end"><a href="trainers.html">Trainers</a></li>
+      </ul>
+    </nav>
+    <p></p>
+  </header>
+  <!-- End of Main Header -->
+  <main class="join-now-container">
+    <form action="join-now.html" method="post" class="sign-up-form wow fade-in" data-wow-delay=".5s">
+      <h2>Sign Up</h2>
+      <fieldset>
+        <legend><span class="number">1</span> Create Account</legend>
+        <label for="name">Name:</label>
+        <input type="text" name="user_name" id="name">
+        <label for="email">Email:</label>
+        <input type="email" name="user_email" id="email">
+        <label for="password">Password:</label>
+        <input type="password" name="user_password" id="password">
+        <label for="bio">Biography:</label>
+        <textarea id="bio"></textarea>
+      </fieldset>
+      <fieldset>
+        <legend><span class="number">2</span> Create Profile</legend>
+        <label>Program:</label>
+        <select id="program" name="user_program">
+            <optgroup label="Exercise Programs">
+              <option value="bodybuilding">Bodybuilding</option>
+              <option value="crossfit">CrossFit</option>
+              <option value="yoga">Yoga</option>
+              <option value="cycling">Cycling</option>
+            </optgroup>
+            <optgroup label="Spa">
+              <option value="Meditation">Meditation</option>
+              <option value="tanning">Tanning</option>
+              <option value="massage">Massage</option>
+              <option value="salt-bath">Salt Bath</option>
+            </optgroup>
+          </select>
+        <label class="block-label">Gender:</label>
+        <input type="radio" name="user_gender" value="male" id="male"><label for="male">Male</label>
+        <input type="radio" name="user_gender" value="female" id="female"><label for="female">Female</label>
+        <label class="block-label">Access:</label>
+        <input type="checkbox" value="trainers" name="user_access" id="trainers"><label for="trainers">Trainers</label>
+        <input type="checkbox" value="Diet" name="user_access" id="Diet"><label for="spa">Diet</label>
+        <input type="checkbox" value="exercise_programs" name="user_access" id="exercise_programs"><label for="exercise_programs">Exercise Programs</label>
+      </fieldset>
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+  <footer class="main-footer">
+    <div class="flex-container">
+      <section class="item-1">
+        <h1>About <a href="index.html"><span class="title-color">Courage</span> Fitness</a></h1>
+        <div class="social-bar">
+          <a href="#"><i class="social-icon fab fa-facebook-f"></i></a>
+          <a href="#"><i class="social-icon fab fa-twitter"></i></a>
+          <a href="#"><i class="social-icon fab fa-instagram"></i></a>
+        <!-- End of Social Bar -->
+      </section>
+      <!-- End of Item-1 -->
+      <section class="item-2">
+        <p class="hello">Say hello:</p>
+        <p class="contact-info"><i class="contact-icon fas fa-map-marker-alt"></i><b>Address:</b> Vizianagaram, K.L Puram,535005</p>
+        <p class="contact-info"><i class="contact-icon fas fa-envelope"></i><b>Email:</b>Couragefitness@gmail.com</p>
+        <p class="contact-info"><i class="contact-icon fas fa-phone"></i><b>Phone:</b>+91 80749 52430</p>
+      </section>
+      <!-- End of Item-2 -->
+    </div>
+  </footer>
+</body>
+
+</html>
